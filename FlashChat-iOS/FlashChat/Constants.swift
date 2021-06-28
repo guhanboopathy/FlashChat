@@ -2,7 +2,7 @@
 //  Constants.swift
 //  FlashChat
 //
-//  Created by Guhan on 19/05/21.
+//  Created by Guhan
 //
 
 struct K {
@@ -24,5 +24,13 @@ struct K {
         static let senderField = "sender"
         static let bodyField = "body"
         static let dateField = "date"
+    }
+    
+    struct AlertMessage {
+        static let error = "Error"
+        static let emailMessage = "Please enter valid username and password"
+        static let OKTitle = "OK"
+        static let attMessage = "attributedMessage"
+        static let attTitle = "attributedTitle"
     }
 }

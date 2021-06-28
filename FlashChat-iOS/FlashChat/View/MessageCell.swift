@@ -2,8 +2,7 @@
 //  MessageCell.swift
 //  FlashChat
 //
-//  Created by Guhan on 19/05/21.
-//
+//  Created by Guhan on
 
 import UIKit
 

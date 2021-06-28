@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  FlashChat
 //
-//  Created by Guhan on 17/05/21.
+//  Created by Guhan
 //
 
 import UIKit
