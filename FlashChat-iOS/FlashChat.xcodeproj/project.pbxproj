@@ -18,8 +18,6 @@
 		4839004626526E19001638A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4839004426526E19001638A7 /* Main.storyboard */; };
 		4839004826526E19001638A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4839004726526E19001638A7 /* Assets.xcassets */; };
 		4839004B26526E19001638A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4839004926526E19001638A7 /* LaunchScreen.storyboard */; };
-		4839005626526E19001638A7 /* FlashChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839005526526E19001638A7 /* FlashChatTests.swift */; };
-		4839006126526E19001638A7 /* FlashChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839006026526E19001638A7 /* FlashChatUITests.swift */; };
 		4839007226528D5B001638A7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839007126528D5B001638A7 /* WelcomeViewController.swift */; };
 		4839007426528D75001638A7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839007326528D75001638A7 /* RegisterViewController.swift */; };
 		4839007626528D83001638A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4839007526528D83001638A7 /* LoginViewController.swift */; };
@@ -60,11 +58,7 @@
 		4839004A26526E19001638A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4839004C26526E19001638A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4839005126526E19001638A7 /* FlashChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4839005526526E19001638A7 /* FlashChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatTests.swift; sourceTree = "<group>"; };
-		4839005726526E19001638A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4839005C26526E19001638A7 /* FlashChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4839006026526E19001638A7 /* FlashChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatUITests.swift; sourceTree = "<group>"; };
-		4839006226526E19001638A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4839007126528D5B001638A7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4839007326528D75001638A7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4839007526528D83001638A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -112,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				4839003D26526E19001638A7 /* FlashChat */,
-				4839005426526E19001638A7 /* FlashChatTests */,
-				4839005F26526E19001638A7 /* FlashChatUITests */,
 				4839003C26526E19001638A7 /* Products */,
 				3A52DFF0FE9F77F21A2B735F /* Pods */,
 				8799487804156D1B60A61F5A /* Frameworks */,
@@ -144,24 +136,6 @@
 				482CBAD52653CA2D004A8B18 /* GoogleService-Info.plist */,
 			);
 			path = FlashChat;
-			sourceTree = "<group>";
-		};
-		4839005426526E19001638A7 /* FlashChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				4839005526526E19001638A7 /* FlashChatTests.swift */,
-				4839005726526E19001638A7 /* Info.plist */,
-			);
-			path = FlashChatTests;
-			sourceTree = "<group>";
-		};
-		4839005F26526E19001638A7 /* FlashChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4839006026526E19001638A7 /* FlashChatUITests.swift */,
-				4839006226526E19001638A7 /* Info.plist */,
-			);
-			path = FlashChatUITests;
 			sourceTree = "<group>";
 		};
 		4839006E26526E43001638A7 /* Model */ = {
@@ -400,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4839005626526E19001638A7 /* FlashChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +381,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4839006126526E19001638A7 /* FlashChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
